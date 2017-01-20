@@ -1,0 +1,198 @@
+
+
+body {
+font-family: arial
+}
+
+.navbar {
+position:fixed;
+text-align:left;
+background: #6495ED;
+display:inline-block;
+border-bottom: solid #DAA520 5px;
+width:100%;
+margin:0 auto;
+top:0;
+}
+
+a{
+list-style:none;
+color:#FFFFFF;
+
+}
+
+ul li {
+display:inline-block;
+list-style:none;
+padding:2%;
+width: 10%;
+text-transform:capitalize;
+font-size:170%;
+color:#FFFFFF;
+}
+ 
+ nav ul li a:hover {
+ color:orange; 
+ cursor:pointer;
+}
+
+section {padding: 10px;}
+
+.container {
+width:100%;
+margin:0 auto;
+}
+
+
+section#home {
+text-align:center;
+background: lightblue;
+border-top: solid #DAA520 5px;
+}
+
+section#home p {
+text-align:center;
+width: 40%;
+margin:0 auto;
+color: #008080;
+margin-bottom:30px;
+}
+
+section#home h1 {
+width: 40%;
+margin:0 auto;
+padding-bottom: 25px;
+color: #008080;
+}
+
+section#home h3 {
+background-color:#E6E6FA;
+width:23%;
+margin:0 auto;
+font-family:cursive;
+font-size:250%;
+color: #008080;
+
+}
+
+section#home button { 
+margin:0 auto;
+background-color: orange;
+color:#FFFFFF;
+
+}
+
+section#about {
+	text-align:center;
+	float:right;
+	margin: 4%;
+	background:lightblue;
+	width: 100%;
+	margin:0 auto;
+	border-bottom: solid #DAA520 5px;
+}
+
+section#about button {
+	text-align:center;
+	margin:0 auto;
+	background-color: orange;
+	color:#FFFFFF;
+}
+
+ .abouttext {
+	float:right;
+	display:inline-block;
+	width: 50%;
+	margin-top: 40px;
+	margin-right: 65px;
+}
+
+
+section#work { 
+background:#CD5C5C;
+text-align:center;
+width: 100%;
+margin:0 auto;
+
+}
+
+.box {  
+width: 30%;
+float:left;
+background:#FFFFFF;
+margin-left:30px;
+margin-bottom:30px;
+}
+
+section#work h1 {
+width: 40%;
+margin:0 auto;
+padding-bottom: 5px;
+color: #FFFFFF;
+
+}
+
+section#work button{
+clear:right;
+color: #FFFFFF;
+}
+
+
+section#work h3 {
+color:#FFFFFF;
+font-family:cursive;
+}
+
+section#contact { 
+background:#CD5C5C;
+text-align:center;
+width: 100%;
+margin:0 auto;
+padding-bottom: 100px;
+
+
+
+}
+
+section#contact h1 {
+padding-bottom: 60px;
+padding-top: 20px;
+
+
+}
+
+section#contact button { 
+text-align:center;
+clear:left;
+background-color: orange;
+color:#FFFFFF;
+}
+
+.socialicons { 
+width:30px; 
+float:left;
+padding-right: 20px;
+}
+
+.me {margin-bottom:60px; }
+
+.p1 {
+text-align:center;
+width:20%; 
+float:left;
+margin:0 auto;
+margin-right: 150px;
+margin-left: 250px;
+
+}
+
+.p2 {
+text-align:center;
+width:20%; 
+margin:0 auto;
+display:inline-block;
+}
+
+
+.fa fa-home {font-size: 200%;}
+
